@@ -1,0 +1,29 @@
+{
+    "name": "bpartner/storage",
+    "description": "Storage for global variables",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "storage",
+        "lumen",
+        "php"
+    ],
+    "authors": [
+        {
+            "name": "Alexander Zinchenko",
+            "email": "azinchenko@bpartner.com.ua",
+            "homepage": "https://github.com/bpartner/storage",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bpartner\\": "src/Storage"
+        }
+    }
+}
